@@ -1,0 +1,85 @@
+{
+  "header_elements": {
+    "el_1": "Asosiy",
+    "el_2": "Biz haqimizda",
+    "el_3": "Mahsulotlar",
+    "el_4": "Sotib olish",
+    "el_5": "Bog'lanish"
+  },
+  "cirlce_text": {
+    "circle": ""
+  },
+
+  "home_page_text": {
+    "main_text": "Yuqori sifatli",
+    "main_text_br": "qadoqlangan pista ko'mir",
+    "btn_text": "zararli tutun va hidsiz",
+    "age_medal": "10 yildan ortiq siz bilanmiz"
+  },
+
+  "second_page": {
+    "main_text": "Qadoqlangan briket pista ko'mir",
+    "desc": "go'sht, baliq, parranda go'shti va boshqa turli xil taomlarni barbekyularda tez va xavfsiz pishirish uchun mo'ljallangan.",
+    "btn_1": "tabiiy",
+    "btn_2": "uzoq yonuvchan",
+    "btn_3": "2x issiqlik"
+  },
+
+  "third_page": {
+    "about_text": "biz haqimizda",
+    "desc": "Max fire - Biz 2014 yildan beri pista ko'mir ishlab chiqaramiz. Bizning pechlarimizning umumiy quvvati oyiga 200 tonnadan ortiq pista ko'mirni tashkil etadi. Kompaniyamiz o'zini yuqori sifatli ko'mirning ishonchli ishlab chiqaruvchisi sifatida ko'rsatdi! Biz barcha ishlab chiqarish jarayonlarini qat'iy nazorat qilamiz: yog'ochni tanlash va yig'ib olishdan tortib qadoqlash sifatini nazorat qilish va o'z vaqtida yetkazib berishgacha."
+  },
+  "fourth_page": {
+    "starter_text": "Starter",
+    "after_starter_text": "Pista ko'mirni yoqish uchun",
+    "text_1": "0,5 mm qalinlikdagi yuqori sifatli metalldan tayyorlangan",
+    "text_2": "zamonaviy va qulay eman dastasi barmoqlaringizni kesmaydi",
+    "text_3": "starter diametri 18 sm, balandligi 30 sm",
+    "text_4": "2 kg briket uchun ideal hajm"
+  },
+  "fives_page": {
+    "main_text": "Briket pista ko'mirlar",
+    "product_info_1": "Ishlab chiqariladi",
+    "product_info_2": "Yonish vaqti",
+    "product_info_3": "Eng kam buyurtma",
+    "product_info_4": "Ishlatiladi",
+    "buy_text": "Sotib olish"
+  },
+  "six_page": {
+    "main_text": "Maxsulotimizni",
+    "markets_text": "",
+    "info_1": "Quyidagi supermarketlar va turli katta va kichik bo'lgan go'sht do'konlaridan xarid qilishingiz mumkin."
+  },
+  "seven_page": {
+    "main_text": "O'zbekiston",
+    "info_1": "bo'ylab yetkazib berish",
+    "info_2": "Buyurtma hajmiga qarab, 1 kundan 3 kungacha yetkazib beramiz.",
+    "info_3": "100 ta qadoqdan ortiq buyurtmalar uchun yetkazib berish bizning hisobimizdan to'lab beriladi (Toshkent shahri ichida)",
+    "info_4": "Bundan tashqari buyurtmani o'zingiz zavoddan olib ketishingiz ham mumkin"
+  },
+  "eight_page": {
+    "main_text": "Nega bizni tanlashadi?",
+    "title_1": "Kafolat",
+    "info_1": "Biz uchun briket pista ko'mirlar sifati birinchi o'rinda va briketlar o'zidan hech qanday zararli hid chiqarmaydi! Rossiyada ishlab chiqariladi.",
+    "title_2": "Yetkazish ",
+    "info_2": " biz tez va arzon yetkazib berishni o'zimiz tashkillashtiramiz",
+    "title_3": "Imkoniyatlar",
+    "info_3": "doimiy mijozlarimizga bo'lib to'lash yoki keyin to'lash imkoniyatini beramiz."
+  },
+  "night_page": {
+    "main_text": "hamkorlarimiz",
+    "info": "50 tadan ortiq kompaniyalar bilan birgalikda ishlab kelmoqdamiz"
+  },
+  "footer": {
+    "loc": "Manzilimiz:",
+    "city": "Toshkent shahar",
+    "target": "Zangiota viloyati Chig'atoy oqtepa",
+    "home": "Shifobaxsh ko'chasi 7-uy",
+    "work_time": "Dushanbadan Shanbagacha, soat 09:00 dan 20:00 gacha",
+    "form_name": "Ismni kiriting",
+    "form_email": "Telefon raqamingizni kiriting",
+    "record": "Ariza qoldirish",
+    "call": "Bog'lanish",
+    "media_text": "Bizni ijtimoiy tarmoqlarda ham kuzating!"
+  }
+}
