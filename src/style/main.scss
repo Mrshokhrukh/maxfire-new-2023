@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    transition: 0.3s;
 }
 
 @font-face {
@@ -12,6 +13,7 @@
 
 :root {
     --red: rgb(172, 10, 10);
+    --lightshadow: 0 0 2px rgb(255, 0, 0), 0 0 4px rgb(255, 0, 0), 0 0 8px red;
 }
 
 
@@ -32,6 +34,12 @@
     }
 }
 
+.back_img {
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
 body {
     font-family: myFon;
 }
@@ -44,5 +52,27 @@ body {
 @media(max-width:512px) {
     .container {
         max-width: 98%;
+        padding: 0 10px;
+    }
+}
+
+.button {
+    width: 170px;
+    height: 35px;
+    background-color: var(--red);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    box-shadow: rgba(158, 5, 5, 0.7) 0px 7px 29px 0px;
+    display: flex;
+    justify-content: center;
+    column-gap: 6px;
+    align-items: center;
+    font-family: myFon;
+
+    span {
+        margin-top: 6px;
+        font-size: 24px;
     }
 }

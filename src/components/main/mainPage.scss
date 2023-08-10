@@ -7,6 +7,131 @@
 .homepage_elements {
     // height: 100%
     position: relative;
-    z-index: 1 ;
+    z-index: 1;
+    top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70%;
+    color: white;
+}
 
+.homepage_elements_text {
+    font-size: 56px;
+    line-height: 65px;
+    text-transform: uppercase;
+}
+
+.sub_text {
+    height: 50px;
+    transform: rotate(-2deg);
+    margin-top: 15px;
+    font-weight: 600;
+    background-color: var(--red);
+    display: inline-block;
+    font-size: 28px;
+    padding: 5px 25px;
+    box-shadow: var(--lightshadow);
+
+    p {
+        transform: rotate(2deg);
+    }
+}
+
+.experience_text {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    .medal_img {
+        width: 50px;
+    }
+}
+
+@media(max-width:1200px) {
+
+    .homepage_elements_text {
+        font-size: 48px;
+        line-height: 55px;
+    }
+
+    .sub_text {
+        height: 40px;
+        padding: 5px 15px;
+        font-size: 22px;
+
+
+    }
+}
+
+@media(max-width:992px) {
+
+    .homepage_elements_text {
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    .sub_text {
+        height: 36px;
+        padding: 5px 15px;
+        font-size: 20px;
+
+
+    }
+
+    .experience_text {
+        .medal_img {
+            width: 30px;
+        }
+    }
+}
+
+@media(max-width:768px) {
+    .homepage_elements {
+        top: 100px;
+    }
+
+    .homepage_elements_text {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .sub_text {
+        height: 32px;
+        padding: 5px 15px 5px;
+        font-size: 18px;
+
+    }
+}
+
+@media(max-width:512px) {
+    .homepage_elements {
+        padding: 5px 0 0 10px;
+    }
+
+    .homepage_elements_text {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .sub_text {
+        height: 30px;
+        padding: 5px 10px 3px;
+        font-size: 16px;
+
+    }
+}
+
+@media(max-width:390px) {
+    .homepage_elements_text {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .sub_text {
+        height: 26px;
+        padding: 5px 10px 3px;
+        font-size: 14px;
+
+    }
 }

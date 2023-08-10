@@ -11,9 +11,9 @@ const MainPage = () => {
       <div className="background_img">
         <img src={backimg} alt="" />
       </div>
-      <div className="homepage_elements">
+      <div className="homepage_elements container">
         <div>
-          <h1 className="text">
+          <h1 className="homepage_elements_text">
             <span>{t("home_page_text.main_text")}</span> <br />
             {t("home_page_text.main_text_br")}
           </h1>
