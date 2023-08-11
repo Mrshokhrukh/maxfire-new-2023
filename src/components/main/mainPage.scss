@@ -16,6 +16,12 @@
     color: white;
 }
 
+@media(max-width:512px) {
+    .homepage_elements {
+        height: 85%;
+    }
+}
+
 .homepage_elements_text {
     font-size: 56px;
     line-height: 65px;

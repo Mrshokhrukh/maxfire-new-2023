@@ -1,0 +1,61 @@
+.about_page {
+    position: relative;
+    height: 100vh;
+
+}
+
+.about_page_el {
+    .about_text {
+        padding-top: 20px;
+        color: #fff;
+        font-size: 24px;
+        text-align: justify;
+    }
+
+    .about_youtube_video {
+        position: relative;
+        top: 50px;
+        width: 100%;
+        height: 450px !important;
+        border: 1.5px solid rgb(243, 243, 243);
+        border-radius: 30px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        cursor: pointer;
+
+        .fire_grill {
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            object-fit: cover;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .youtube_icon {
+            width: 100%;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80%;
+            z-index: 1;
+
+            img {
+                cursor: pointer;
+                width: 100px;
+                height: 100px;
+            }
+        }
+    }
+
+    .play_btn_icon {
+        position: absolute;
+        top: 36%;
+        left: 15%;
+    }
+
+}

@@ -27,9 +27,7 @@ const Header = () => {
         header.current.style.boxShadow =
           "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;";
       } else if (window.innerWidth < 768 && window.scrollY > 20) {
-        // header.current.style.top = "0";
-      } else {
-        header.current.style.top = "50px";
+        header.current.style.top = "0";
       }
     };
 
