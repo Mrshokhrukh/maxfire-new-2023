@@ -74,9 +74,9 @@
     @include clients_text_line(var(--red), white);
 }
 
-@media (max-height: 725px) {
+
+@media (max-width: 512px) {
     .categ_text {
-        // margin: 20px 0;
-        margin-top: 10px;
+        height: 75px;
     }
 }

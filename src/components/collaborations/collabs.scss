@@ -1,0 +1,256 @@
+.page_8_choose_us {
+    position: relative;
+    height: 80vh;
+    z-index: 1;
+    width: 100%;
+
+}
+
+.back_red_circle {
+    position: absolute;
+    z-index: -1;
+    width: 550px;
+    left: -9%;
+    top: -5%;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media(max-width:1300px) {
+    .back_red_circle {
+        top: -15%;
+        left: -10%;
+        width: 430px;
+    }
+}
+
+@media(max-width:992px) {
+    .back_red_circle {
+        top: -5%;
+        left: -11%;
+        width: 330px;
+    }
+}
+
+@media(max-width:768px) {
+    .back_red_circle {
+        top: 5%;
+        left: -12%;
+        width: 250px;
+    }
+}
+
+@media(max-width:502px) {
+    .back_red_circle {
+        display: none;
+    }
+}
+
+@media(max-width:1260px) {
+    .page_8_choose_us {
+        height: auto;
+    }
+}
+
+.our_priorities_page {
+    width: 100%;
+    padding: 15px 0;
+    display: grid;
+
+    .our_priorities_page_text {
+        position: relative;
+        text-transform: uppercase;
+        font-size: 42px;
+        font-weight: bold;
+        color: #fff;
+
+        p {
+            padding: 50px 0;
+        }
+
+
+    }
+
+    @media(max-width:1300px) {
+        .our_priorities_page_text {
+            font-size: 37px;
+
+            p {
+                padding: 20px 0;
+            }
+        }
+
+    }
+
+    @media(max-width:992px) {
+        .our_priorities_page_text {
+            font-size: 26px;
+            padding: 25px 0;
+
+            p {
+                padding: 10px 0;
+            }
+        }
+
+    }
+
+    @media(max-width:768px) {
+        .our_priorities_page_text {
+            font-size: 20px;
+            padding: 25px 0;
+
+            p {
+                padding: 10px 0;
+            }
+        }
+
+    }
+
+    @media(max-width:512px) {
+        .our_priorities_page_text {
+
+
+
+            p {
+                text-align: center;
+                padding: 0;
+            }
+        }
+
+    }
+
+
+    .eighth_page_info_boxes {
+        margin-top: 70px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        padding: 20px 0;
+
+        [class*="box"] {
+            height: auto;
+            width: 350px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 25px;
+            color: #fff;
+            text-align: center;
+
+            .img_round {
+                border: 2px solid var(--red);
+                padding: 10px;
+                border-radius: 15px;
+            }
+
+            img {
+                width: 80px;
+            }
+
+            .title_text {
+                font-size: 36px;
+            }
+
+            .title_description {
+                text-align: center;
+                font-size: 22px;
+            }
+
+            @media(max-width:768px) {
+                .title_text {
+                    font-size: 28px;
+                }
+
+                .title_description {
+                    text-align: center;
+                    font-size: 18px;
+                }
+
+            }
+        }
+    }
+
+    @media((min-width:993px) and (max-height:700px)) {
+        .eighth_page_info_boxes {
+            margin-top: 5px !important;
+
+            [class*="box"] {
+                img {
+                    width: 60px;
+                }
+
+                .title_text {
+                    font-size: 36px;
+                }
+
+                .title_description {
+                    text-align: center;
+                    font-size: 18px;
+                }
+            }
+
+
+        }
+    }
+
+    @media(max-width:1260px) {
+        .eighth_page_info_boxes {
+            justify-content: center;
+            gap: 60px;
+            margin-top: 70px;
+
+            [class*="box"] {
+                width: 300px;
+            }
+        }
+    }
+
+    @media(max-height:780px) {
+        .eighth_page_info_boxes {
+            margin-top: 20px;
+        }
+    }
+
+    @media(max-width:600px) {
+        .eighth_page_info_boxes {
+            margin-top: 10px;
+        }
+    }
+
+    @media(max-width:412px) {
+        .eighth_page_info_boxes {
+            justify-content: center;
+            gap: 30px;
+            margin-top: 5px !important;
+
+            [class*="box"] {
+                height: auto;
+                width: 300px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                gap: 25px;
+                color: #fff;
+                text-align: center;
+
+                img {
+                    width: 70px;
+                }
+
+                .title_text {
+                    font-size: 24px;
+                }
+
+                .title_description {
+                    font-size: 16px;
+                }
+            }
+
+        }
+    }
+}

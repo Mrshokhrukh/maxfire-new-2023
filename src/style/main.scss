@@ -17,6 +17,29 @@
 
 
 
+::selection {
+    background-color: rgb(172, 10, 10);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--red);
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a71107;
+}
+
+
+
 .background_img {
     position: absolute;
     width: 100%;
