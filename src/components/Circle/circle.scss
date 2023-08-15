@@ -1,0 +1,95 @@
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.to_bottom_circled {
+    position: absolute;
+    top: 80%;
+    right: 2%;
+    z-index: 10;
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+
+
+    .to_bottom_icon {
+        position: absolute;
+        @extend .center;
+        font-size: 45px;
+        width: 95px;
+        height: 95px;
+        background-color: var(--red);
+        box-shadow: var(--lightshadow);
+        border-radius: 50%;
+        color: #fff;
+
+
+    }
+
+    .cirled_dots {
+        position: relative;
+        height: 70%;
+        width: 70%;
+        animation: rotText 7s linear infinite;
+        border-radius: 50%;
+
+        .dots {
+            --rotaion: 0deg;
+            position: absolute;
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background-color: white;
+            transform-origin: 0 50px;
+            transform: rotate(var(--rotaion));
+            top: -10%;
+            left: 50%;
+        }
+
+        .dots:nth-child(1) {
+            --rotaion: 60deg
+        }
+
+        .dots:nth-child(2) {
+            --rotaion: 120deg
+        }
+
+        .dots:nth-child(3) {
+            --rotaion: 180deg
+        }
+
+        .dots:nth-child(4) {
+            --rotaion: 240deg
+        }
+
+        .dots:nth-child(5) {
+            --rotaion: 300deg
+        }
+
+        .dots:nth-child(6) {
+            --rotaion: 360deg
+        }
+    }
+
+
+}
+
+@keyframes rotText {
+    0% {
+        transform: rotate(360deg);
+    }
+}
+
+@media(max-width:768px) {
+    .to_bottom_circled {
+        display: none;
+    }
+}

@@ -75,50 +75,56 @@
         }
     }
 
-
-    .burger_menu {
-        width: 45px;
-        height: 35px;
-        background-color: rebeccapurple;
-        border-radius: 5px;
-        background-color: rgba(245, 245, 245, 0.822);
-        cursor: pointer;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 6px;
+    .burger_menubar_opener {
         display: none;
-        transition: 0.3s;
-        list-style: none;
 
-        li {
-            border-radius: 25px;
-            width: 75%;
-            height: 2px !important;
-            background-color: red;
+        .burger_menu {
+            width: 45px;
+            height: 35px;
+            background-color: rebeccapurple;
+            border-radius: 5px;
+            background-color: rgba(245, 245, 245, 0.822);
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            transition: 0.3s;
+            list-style: none;
+
+
+            li {
+                border-radius: 25px;
+                width: 75%;
+                height: 2px !important;
+                background-color: red;
+
+            }
+
+            &:hover {
+
+                li:nth-child(1) {
+                    width: 80%;
+
+                }
+
+                li:nth-child(2) {
+                    width: 65%;
+                }
+
+                li:nth-child(3) {
+                    width: 80%;
+                }
+            }
+
+
 
         }
-
-        &:hover {
-
-            li:nth-child(1) {
-                width: 80%;
-
-            }
-
-            li:nth-child(2) {
-                width: 65%;
-            }
-
-            li:nth-child(3) {
-                width: 80%;
-            }
-        }
-
-
-
     }
+
+
+
 
     @media (max-width: 1400px) {
         .elements a {
@@ -186,7 +192,7 @@
 
 @media(max-width:768px) {
     .head {
-        .burger_menu {
+        .burger_menubar_opener {
             display: flex;
         }
 

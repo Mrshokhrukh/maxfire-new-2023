@@ -3,6 +3,7 @@ import "./header.scss";
 import { useTranslation } from "react-i18next";
 import logo from "../../assets/logo.png";
 import i18next from "i18next";
+import Sidebar from "../sidebar/Sidebar";
 
 const Header = () => {
   const [t, i18] = useTranslation("global");
@@ -61,17 +62,22 @@ const Header = () => {
         </div>
 
         <div className="translation">
-          <div className="lang rus">RU</div>
-          <div className="lang uz">UZ</div>
+          <div className="lang rus" onClick={() => changeLanguage("rus")}>
+            RU
+          </div>
+          <div className="lang uz" onClick={() => changeLanguage("uz")}>
+            UZ
+          </div>
         </div>
 
-        <div className="burger_menubar_opener">
+        <div className="burger_menubar_opener" onClick={sidebarOpen}>
           <ul className="burger_menu">
             <li></li>
             <li></li>
             <li></li>
           </ul>
         </div>
+        <Sidebar isOpen={isOpen} close={close} />
       </div>
     </div>
   );

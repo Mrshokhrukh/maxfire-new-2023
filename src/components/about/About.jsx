@@ -11,7 +11,7 @@ const About = () => {
       <div className="background_img">
         <img src={backimg} alt="" />
       </div>
-      <div className="about_page_el container">
+      <div className="about_page_el container" id="about">
         <Category_text text={`${t("third_page.about_text")}`} />
 
         <div className="about_text">

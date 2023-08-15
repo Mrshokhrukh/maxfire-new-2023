@@ -1,0 +1,110 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -250%;
+    width: 100%;
+    height: 100vh !important;
+    z-index: 10;
+    background: rgba(255, 255, 255, 0.35);
+    transition: 0.3s;
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+
+
+    .closemenu {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        position: absolute;
+        top: 5%;
+        right: 7%;
+        font-size: 32px;
+        cursor: pointer;
+        background: rgba(255, 255, 255, 0.4);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        border-radius: 50%;
+        border: 1px solid black;
+    }
+
+
+    .nav_elements {
+        width: 100%;
+        top: 15%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        padding: 0 10px;
+
+        a,
+        .langauages {
+            height: 100%;
+            padding: 12px;
+            border: 1px solid var(--red);
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 16px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: rgba(255, 255, 255, 0.3);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            border-radius: 10px;
+
+
+            .sidebar_icon_sjow {
+                color: #fff;
+                opacity: 0;
+                margin-top: 4px;
+            }
+
+        }
+
+        .langauages {
+            display: flex;
+            padding: 5px;
+
+            .uz,
+            .rus {
+                width: 45%;
+                height: 35px;
+                border-radius: 5px;
+                background-color: var(--red);
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+
+        a:hover {
+            background-color: black;
+            color: white;
+
+
+
+
+            .sidebar_icon_sjow {
+                opacity: 1;
+            }
+        }
+
+
+    }
+}
+
+.sidebar.open {
+    right: 0%;
+}

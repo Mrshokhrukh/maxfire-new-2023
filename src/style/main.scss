@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    transition: 0.2s linear;
+    scroll-behavior: smooth;
 }
 
 @font-face {
@@ -15,7 +17,14 @@
     --lightshadow: 0 0 2px rgb(255, 0, 0), 0 0 4px rgb(255, 0, 0), 0 0 8px red;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
 
+ul {
+    list-style: none;
+}
 
 ::selection {
     background-color: rgb(172, 10, 10);

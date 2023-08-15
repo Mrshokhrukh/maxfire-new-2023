@@ -1,0 +1,114 @@
+.clientPage {
+    position: relative;
+    width: 100%;
+    // padding: 0 25px;
+    height: auto !important;
+    padding: 20px 10px !important;
+    padding-bottom: 50px !important;
+}
+
+
+
+@media (max-width: 768px) {
+    .clientPage {
+        padding-bottom: 20px !important;
+    }
+}
+
+@font-face {
+    font-family: fon1;
+    src: url('../../Freigeist-Light.ttf');
+}
+
+
+
+.about_cmpanies {
+    padding-top: 35px;
+    display: grid;
+
+    .text_about_clients {
+        font-size: 32px;
+        font-family: fon1;
+    }
+
+    @media (max-width: 1400px) {
+        .text_about_clients {
+            font-size: 28px;
+        }
+    }
+
+    @media (max-width: 1200px) {
+        .text_about_clients {
+            font-size: 24px;
+        }
+    }
+
+    @media (max-width: 992px) {
+        .text_about_clients {
+            font-size: 20px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .text_about_clients {
+            font-size: 18px;
+        }
+    }
+}
+
+.companies_collabs {
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+
+    img {
+        width: 100%;
+        border: 1.5px solid black;
+        height: 100%;
+    }
+
+    a:nth-child(8) img {
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 992px) {
+    // .about_cmpanies {
+    //     margin-top: 60px;
+    // }
+
+    .companies_collabs {
+        margin-top: 40px;
+        grid-template-columns: repeat(4, 1fr);
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about_cmpanies {
+        padding-top: 20px;
+    }
+
+    .companies_collabs {
+        margin-top: 20px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 502px) {
+    .companies_collabs {
+        padding-bottom: 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+// ------------------------
+@media (max-width: 512px) {
+
+
+    .about_cmpanies {
+        padding: 0 40px !important;
+
+    }
+}

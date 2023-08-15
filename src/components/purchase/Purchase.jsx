@@ -17,6 +17,7 @@ const Purchase = () => {
         className="container buy_page"
         data-aos="fade-up"
         data-aos-anchor-placement="top-bottom"
+        id="purchase"
       >
         <div className="categ_text_purchase">
           <div className="rotated_text_btn">

@@ -134,6 +134,13 @@
     }
 }
 
+@media(max-height:822px) {
+    .about_page_el {
+        gap: 19px;
+        padding-bottom: 15px !important;
+    }
+}
+
 @media (max-height: 726px) {
     .about {
         position: relative;

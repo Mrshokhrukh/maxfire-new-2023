@@ -1,15 +1,38 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import backimg from "../../assets/1 page+picture.png";
 import medal from "../../assets/medal.png";
+import resHome from "../../assets/home_page_back_res.png";
+import { BsArrowDown } from "react-icons/bs";
 import "./mainPage.scss";
 import { useTranslation } from "react-i18next";
+import Circle from "../Circle/Circle";
 const MainPage = () => {
   const [t, i18n] = useTranslation("global");
   const [isSmall, SetIsSmall] = useState(false);
+
+  useEffect(() => {
+    if (window.innerWidth < 768) {
+      SetIsSmall(true);
+    } else {
+      SetIsSmall(false);
+    }
+    const handleResize = () => {
+      if (window.innerWidth < 768) {
+        SetIsSmall(true);
+      } else {
+        SetIsSmall(false);
+      }
+    };
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
-    <div className="main_page">
+    <div className="main_page" id="home">
       <div className="background_img">
-        <img src={backimg} alt="" />
+        <img src={isSmall ? resHome : backimg} alt="" />
       </div>
       <div className="homepage_elements container">
         <div>
@@ -26,6 +49,8 @@ const MainPage = () => {
           <p>{t("home_page_text.age_medal")}</p>
         </div>
       </div>
+
+      <Circle icon={<BsArrowDown />} />
     </div>
   );
 };

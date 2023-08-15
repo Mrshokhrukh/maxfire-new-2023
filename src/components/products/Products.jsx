@@ -19,7 +19,7 @@ const Products = () => {
         <img src={komir} alt="" />
       </div>
 
-      <div className="products_page_container">
+      <div className="products_page_container" id="products">
         <div className="cattegroy_text_products_page container">
           <Category_text text={`${t("fives_page.main_text")}`} />
         </div>
